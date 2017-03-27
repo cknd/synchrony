@@ -167,7 +167,7 @@ for k,pars in enumerate(parameters):
     rsyncs.append(rsync)
 
 
-for plottype,label in zip(["inh_random", "inh_recurrent", "inh_lateral"], ["$g^{{inh, recurr.}}$", "$g^{{inh, lateral}}$", "$g^{{inh, random}}$"]):
+for plottype,label in zip(["inh_random", "inh_recurrent", "inh_lateral"], ["$g^{{inh, random}}$", "$g^{{inh, recurr.}}$", "$g^{{inh, lateral}}$"]):
     figure(figsize=(3,2))
     plot_rsyncs = [(p[plottype],r) for r,p in zip(rsyncs, parameters) if plottype in p.get('lineplots',[])]
     plot(*zip(*plot_rsyncs))
