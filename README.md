@@ -1,5 +1,8 @@
-### Source files to accompany the article "Cortical Spike Synchrony as a Measure of Input Familiarity".
+### Source files for "Cortical Spike Synchrony as a Measure of Input Familiarity"
 
+http://www.mitpressjournals.org/doi/abs/10.1162/neco_a_00987
+
+https://arxiv.org/abs/1709.03113
 
 ## Overview
 
@@ -10,7 +13,7 @@ These sources can be divided in three subsets:
 - a number of python scripts that generate the figure panels shown in the article along with some additional plots.
 
 A note on code quality:
-I'm making this public because scientific code should be public, even and especially if its creator is not entirely proud of it. This is not software. This is a collection of experiments that had to survive many shifts in requirements as the science progressed. Part of the codebase started out back when python 2 looked like a good idea. Having said all that, I also want to say, fear not: Everything produces colorful plots and the main pathways are quite well-aired and documented.
+I'm making this public because scientific code should be public, even (or especially) if its creator is not entirely proud of it. This is not a piece of software: It's a collection of experiments that had to survive many shifts in scope as ideas progressed. Part of the codebase started out back when using python 2 looked like a good idea. Having said this, I also want to say: Fear not! The main pathways are quite well-aired and documented and everything makes colorful plots.
 
 
 ## Dependencies
