@@ -1,23 +1,26 @@
-### Source files for "Cortical Spike Synchrony as a Measure of Input Familiarity"
+### Source code for "Cortical Spike Synchrony as a Measure of Input Familiarity"
+###### Korndörfer, C., Ullner, E., García-Ojalvo, J., & Pipa, G. (2017). Cortical Spike Synchrony as a Measure of Input Familiarity. Neural computation, 29(9), 2491-2510.
 
-**tl;dr:** Sometimes a patch of cortex responds to an input in unison, sometimes each neuron has its own rhythm. Why is that, and what is it for? Our take: Maybe temporal order is just something that happens when random inputs hit a group of well-connected excitatory cells, because they nudge each other and have a resonant frequency. So then, maybe these orderly responses can signal that the same cells have been hit together often before, since that's how strong, excitatory connections get created in the first place.
+**tl;dr:** In the brain, sometimes a patch of cortex responds to an input in unison, sometimes each neuron has its own rhythm. Why is that and what is it for? Maybe temporal order emerges when any input hits a group of well-connected excitatory cells, just because they nudge each other and share a resonant frequency. So then, maybe coinciding responses indicate that the same group of cells was often hit by a similar pattern in the past, since that's where strong, excitatory connections come from.
 
 https://arxiv.org/abs/1709.03113  (open access)
 
 http://www.mitpressjournals.org/doi/abs/10.1162/neco_a_00987  (paywall)
 
-![animation of a grid network resonating under random input](https://raw.githubusercontent.com/cknd/synchrony/master/gnet_5.gif)
 
-## Overview
+![animation of an unconnected grid network resonating under random input](https://raw.githubusercontent.com/cknd/synchrony/master/gnet_0.gif)
+![animation of a moderately connected grid network resonating under random input](https://raw.githubusercontent.com/cknd/synchrony/master/gnet_5.gif)
 
-These sources can be divided in three subsets:
+## Source files overview
+
+These sources have three parts:
 
 - a numerical simulation of noise-driven FitzHugh-Nagumo and Izhikevich spiking networks written in C.
-- a python wrapper for the simulation, offering an epidemic of functions for preparing & visualizing experiments on such networks.
-- a number of python scripts that generate the figure panels shown in the article along with some additional plots.
+- a python wrapper for the simulation, offering an epidemic of functions to define & visualize experiments on such networks.
+- several python scripts that generate the figure panels shown in the article and some additional plots.
 
 A note on code quality:
-I'm making this public because scientific code should be out there, even (or especially) if its creator is not entirely proud of it. This is not a piece of software, just a pile of experiments (a surprisingly old one, as well: python 2 seemed like a reasonable choice back then). Having said this, I also want to say: Fear not! The main pathways are quite well-aired and documented and everything makes colorful plots.
+This is public only because scientific code should be out there, even (or especially) if its creator is not entirely proud of it. It's not a piece of software, just a pile of experiments with a long history of shifting scopes (and old enough to be in python 2, somehow). But fear not! The main pathways are quite well-aired and documented & everything makes colorful plots.
 
 
 ## Dependencies
