@@ -1,4 +1,4 @@
-### Source code for "Cortical Spike Synchrony as a Measure of Input Familiarity"
+### "Cortical Spike Synchrony as a Measure of Input Familiarity"
 ###### Korndörfer, C., Ullner, E., García-Ojalvo, J., & Pipa, G. (2017). Cortical Spike Synchrony as a Measure of Input Familiarity. Neural computation, 29(9), 2491-2510.
 
 **tl;dr:** In the brain, sometimes a group of cortical cells respond to an input in unison, sometimes each neuron has its own rhythm. Why is that and does it mean anything? Maybe temporal order emerges whenever the input hits a group of well-connected excitatory cells, just because they nudge each other and share a resonant frequency. So then, maybe coinciding responses mean that the same group of cells was often hit by similar patterns in the past, since that's where strong, excitatory connections come from.
